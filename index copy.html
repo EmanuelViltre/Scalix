@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Servicio de Análisis de Datos para Ecommerce - Scalix</title>
+  <meta content="Servicios de análisis de datos para ecommerce, integración con plataformas como Mercado Libre, Shopify y WooCommerce, dashboards personalizados y soporte continuo." name="description">
+  <meta content="análisis de datos, ecommerce, integración, dashboards personalizados, soporte" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Estilos personalizados */
+    body {
+      margin-top: 80px; /* Espacio para el navbar */
+    }
+
+    .section-bg {
+      background: #f9f9f9;
+      padding: 60px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .benefit-box, .platform-box, .cta-box {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .benefit-box:hover, .platform-box:hover, .cta-box:hover {
+      background: #e0f7fa;
+    }
+
+    .benefit-box .icon, .platform-box .icon, .cta-box .cta-icon {
+      font-size: 28px;
+      color: #3498db;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      background: #333;
+      padding: 30px 0;
+    }
+
+    .footer h3, .footer p, .footer a {
+      color: #fff;
+    }
+
+    .footer .social-links a {
+      margin: 0 8px;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    /* Nuevos estilos para la sección de implementación */
+    .implementation-process .platform-box {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .implementation-process .platform-box:hover {
+      background-color: #e0f7fa;
+      transform: scale(1.02);
+    }
+
+    .implementation-process h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .implementation-process p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .implementation-process ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .implementation-process ul li {
+      background: url('assets/img/check-icon.png') no-repeat left center;
+      padding-left: 25px;
+      margin-bottom: 5px;
+    }
+
+    .cta-section {
+      background: #000;
+      color: #fff;
+      padding: 60px 0;
+    }
+
+    .cta-section .cta-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .cta-section .cta-title h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .cta-section .cta-button {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-section .cta-button:hover {
+      background-color: #2980b9;
+    }
+
+    @media (max-width: 768px) {
+      .implementation-process .platform-box {
+        padding: 15px;
+      }
+
+      .section-title h2 {
+        font-size: 24px;
+      }
+
+      .section-title p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo-container">
+        <a href="index.html" class="logo">
+          <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+          <h1>Scalix</h1>
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="about.html">Sobre Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="services.html">Servicios</a></li>
+          <li><a class="nav-link scrollto" href="team.html">Equipo</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contacto</a></li>
+          <li><a class="getstarted scrollto" href="https://wa.me/5491124069901?text=Hola%2C%20me%20interesa%20empezar%20una%20consulta." target="_blank">Comenzar</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Beneficios del Servicio ======= -->
+    <section id="benefits" class="benefits section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Beneficios del Análisis de Datos para Ecommerce</h2>
+          <p>Descubre cómo nuestro servicio de análisis de datos puede ayudarte a mejorar tu tienda online con ejemplos claros.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="benefit-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon">
+                <i class="bx bx-bar-chart"></i>
+              </div>
+              <h4>Mejora de Decisiones</h4>
+              <p>Con datos precisos, puedes ajustar precios y estrategias para optimizar tus operaciones. Por ejemplo, si ves que ciertos productos no se venden bien, puedes ofrecer descuentos o cambiar la estrategia de marketing.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="benefit-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon">
+                <i class="bx bx-dollar"></i>
+              </div>
+              <h4>Incremento en Ventas</h4>
+              <p>Identifica qué productos son más populares y enfócate en ellos. Si detectas que tus clientes prefieren ciertos artículos, puedes destacarlos en tu tienda para aumentar las ventas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="benefit-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon">
+                <i class="bx bx-time-five"></i>
+              </div>
+              <h4>Optimización del Tiempo</h4>
+              <p>Automatiza la generación de reportes y análisis para centrarte en lo que realmente importa: hacer crecer tu negocio. Por ejemplo, recibir reportes automáticos te permite ahorrar tiempo y dedicarlo a mejorar la experiencia del cliente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Beneficios -->
+
+    <!-- ======= Cómo Implementamos Nuestro Servicio ======= -->
+    <section id="implementation" class="implementation-process section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Cómo Implementamos Nuestro Servicio</h2>
+          <p>Así es como trabajamos contigo para mejorar tu análisis de datos y ayudarte a tomar decisiones informadas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="platform-box" data-aos="fade-up" data-aos-delay="100">
+              <h3>1. Evaluación Inicial</h3>
+              <p>Realizamos un análisis gratuito para entender tus necesidades y objetivos, identificando áreas clave donde el análisis de datos puede ser más beneficioso.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="platform-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>2. Integración y Configuración</h3>
+              <p>Integramos tus plataformas de ecommerce con Google Analytics y Looker Studio para centralizar los datos y facilitar su análisis.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="platform-box" data-aos="fade-up" data-aos-delay="300">
+              <h3>3. Personalización de Reportes</h3>
+              <p>Configuramos dashboards y reportes a medida para que puedas acceder a la información más relevante para tu negocio.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="platform-box" data-aos="fade-up" data-aos-delay="400">
+              <h3>4. Soporte Continuo</h3>
+              <p>Ofrecemos soporte y ajustes continuos para asegurarnos de que tus datos estén siempre actualizados y relevantes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cómo Implementamos Nuestro Servicio -->
+
+    <!-- ======= CTA ======= -->
+    <section id="cta" class="cta-section">
+      <div class="container" data-aos="fade-up">
+        <div class="cta-title">
+          <h2>¿Listo para mejorar tu ecommerce con datos precisos?</h2>
+          <p>Contacta con nosotros hoy mismo para una consulta gratuita y descubre cómo podemos ayudarte a hacer crecer tu negocio.</p>
+        </div>
+        <a href="https://wa.me/5491124069901?text=Hola%2C%20me%20interesa%20empezar%20una%20consulta." class="cta-button" target="_blank">Solicitar Consulta</a>
+      </div>
+    </section><!-- End CTA -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 footer-info">
+          <h3>Scalix</h3>
+          <p>Ofrecemos soluciones innovadoras para el crecimiento y la optimización de negocios en la era digital. Nuestro compromiso es brindarte el mejor servicio con un enfoque personalizado.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-links">
+          <h4>Enlaces Útiles</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="team.html">Equipo</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-contact">
+          <h4>Contáctanos</h4>
+          <p>
+            Dirección de la empresa <br>
+            Ciudad, Código Postal<br>
+            Teléfono: +54 11 1234-5678<br>
+            Email: <a href="mailto:info@scalix.com">info@scalix.com</a><br>
+          </p>
+
+          <div class="social-links">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
