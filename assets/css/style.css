@@ -822,101 +822,202 @@ section {
   background-color: #4668a2;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
-  transition: all ease-in-out 0.4s;
-  background: #fff;
+/* General Styles */
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.services .icon-box .icon {
-  margin-bottom: 10px;
+.section-title h2, .section-title h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
 }
 
-.services .icon-box .icon i {
-  color: #47b2e4;
-  font-size: 36px;
-  transition: 0.3s;
-}
-
-.services .icon-box h4 {
-  font-weight: 500;
-  margin-bottom: 15px;
-  font-size: 24px;
-}
-
-.services .icon-box h4 a {
-  color: #37517e;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
+.section-title p {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
-  transform: translateY(-10px);
+/* General Styles */
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.services .icon-box:hover h4 a {
-  color: #47b2e4;
-}
-
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
-.cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 120px 0;
-}
-
-.cta h3 {
-  color: #fff;
+.section-title h2, .section-title h3 {
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
 }
 
-.cta p {
+.section-title p {
+  margin-bottom: 0;
+}
+
+/* General Styles */
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2, .section-title h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+/* General Services Section */
+/* Services Section */
+.services {
+  background: #ffffff; /* Fondo gris claro para la sección */
+  padding: 60px 0;
+}
+
+.services .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333; /* Texto en gris oscuro */
+  margin-bottom: 20px;
+}
+
+.services .section-title p {
+  font-size: 18px;
+  color: #666; /* Texto secundario en gris medio */
+}
+
+.services .icon-box {
+  background: #fff; /* Fondo blanco para los cuadros */
+  color: #333; /* Texto en gris oscuro */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon-box .icon {
+  margin-bottom: 20px;
+}
+
+.services .icon-box .icon i {
+  font-size: 36px;
+  color: #47b2e4; /* Color del icono en azul */
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333; /* Títulos en gris oscuro */
+  margin-bottom: 15px;
+}
+
+.services .icon-box p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.services .icon-box:hover {
+  background: #47b2e4; /* Fondo azul en hover */
+  color: #fff; /* Texto en blanco en hover */
+}
+
+.services .icon-box:hover .icon i {
+  color: #fff; /* Color del icono en blanco en hover */
+}
+
+
+
+/* Specialized Call to Action Section */
+.specialized-cta {
+  background: #000; /* Fondo negro para la sección */
+  color: #fff; /* Texto blanco */
+  padding: 60px 0;
+}
+
+.specialized-cta .section-title {
+  margin-bottom: 30px;
+}
+
+.specialized-cta .section-title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff; /* Texto en blanco */
+  margin-bottom: 20px;
+}
+
+.specialized-cta .section-title p {
+  font-size: 18px;
+  color: #ddd; /* Texto secundario en gris claro */
+}
+
+.specialized-cta .cta-box {
+  background: #000; /* Fondo negro para los cuadros */
+  color: #fff; /* Texto blanco dentro de los cuadros */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.specialized-cta .cta-box .cta-icon {
+  font-size: 36px;
+  color: #47b2e4; /* Color del icono en azul */
+  margin-right: 15px;
+}
+
+.specialized-cta .cta-box .cta-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff; /* Títulos en blanco */
+  margin-bottom: 10px;
+}
+
+.specialized-cta .cta-box .cta-info p {
+  font-size: 14px;
+  color: #ddd; /* Texto secundario en gris claro */
+}
+
+.specialized-cta .cta-box:hover {
+  background: #47b2e4; /* Cambio de fondo en hover */
+  color: #fff; /* Cambio de texto en hover */
+}
+
+.specialized-cta .cta-box:hover .cta-icon {
+  color: #fff; /* Cambio de color del icono en hover */
+}
+
+.specialized-cta .btn-get-started {
+  background: #000;
   color: #fff;
-}
-
-.cta .cta-btn {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
   font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  font-weight: 600;
+  transition: background 0.3s ease;
 }
 
-.cta .cta-btn:hover {
-  background: #47b2e4;
-  border: 2px solid #47b2e4;
-}
-
-@media (max-width: 1024px) {
-  .cta {
-    background-attachment: scroll;
-  }
-}
-
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
+.specialized-cta .btn-get-started:hover {
+  background: #47b2e4; /* Fondo azul en hover */
 }
 
 /*--------------------------------------------------------------
@@ -1077,6 +1178,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1173,133 +1275,127 @@ section {
 
 /*--------------------------------------------------------------
 # Pricing
---------------------------------------------------------------*/
-.pricing .row {
-  padding-top: 40px;
+--------------------------------------------------------------*//* Pricing Section */
+/* Pricing Section */
+.pricing {
+  padding: 60px 0;
+  background-color: #f8f9fc;
 }
 
-.pricing .box {
-  padding: 60px 40px;
-  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+.pricing .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing .section-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000; /* Color negro para el título */
+}
+
+.pricing .section-title p {
+  font-size: 16px;
+  color: #666;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.pricing .pricing-info {
+  text-align: center;
   background: #fff;
-  height: 100%;
-  border-top: 4px solid #fff;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
-.pricing h3 {
-  font-weight: 500;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: #37517e;
+.pricing .pricing-info h3 {
+  font-size: 24px;
+  color: #000; /* Color negro para el encabezado */
+  margin-bottom: 10px;
 }
 
-.pricing h4 {
-  font-size: 48px;
-  color: #37517e;
+.pricing .pricing-info h4 {
+  font-size: 36px;
+  color: #47b2e4;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
-.pricing h4 sup {
+.pricing .pricing-info h4 span {
   font-size: 28px;
 }
 
-.pricing h4 span {
-  color: #47b2e4;
-  font-size: 18px;
-  display: block;
+.pricing .pricing-info p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-.pricing ul {
-  padding: 20px 0;
+.pricing .pricing-info ul {
   list-style: none;
+  padding: 0;
   color: #999;
-  text-align: left;
-  line-height: 20px;
+  margin: 0;
 }
 
-.pricing ul li {
-  padding: 10px 0 10px 30px;
+.pricing .pricing-info ul li {
+  padding: 10px 0;
   position: relative;
+  font-size: 16px;
 }
 
-.pricing ul i {
+.pricing .pricing-info ul i {
   color: #28a745;
-  font-size: 24px;
+  font-size: 20px;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 4px;
 }
 
-.pricing ul .na {
-  color: #ccc;
+.pricing .pricing-call-to-action {
+  text-align: center;
+  margin-top: 40px;
 }
 
-.pricing ul .na i {
-  color: #ccc;
+.pricing .pricing-call-to-action p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-.pricing ul .na span {
-  text-decoration: line-through;
-}
-
-.pricing .buy-btn {
+.pricing .cta-btn {
   display: inline-block;
-  padding: 12px 35px;
+  padding: 12px 30px;
   border-radius: 50px;
-  color: #000000;
-  transition: none;
+  color: #fff;
+  background: #000; /* Botón negro por defecto */
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
-  transition: 0.3s;
-  border: 1px solid #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.3s;
 }
 
-.pricing .buy-btn:hover {
-  background: #47b2e4;
-  color: #fff;
-}
-
-.pricing .featured {
-  border-top-color: #000000;
-}
-
-.pricing .featured .buy-btn {
-  background: #040404;
-  color: #fff;
-}
-
-.pricing .featured .buy-btn:hover {
-  background: #000000;
+.pricing .cta-btn:hover {
+  background: #47b2e4; /* Botón azul al pasar el ratón */
 }
 
 @media (max-width: 992px) {
-  .pricing .box {
-    max-width: 60%;
-    margin: 0 auto 30px auto;
+  .pricing .pricing-info {
+    max-width: 90%;
   }
 }
 
 @media (max-width: 767px) {
-  .pricing .box {
-    max-width: 80%;
-    margin: 0 auto 30px auto;
-  }
-}
-
-@media (max-width: 420px) {
-  .pricing .box {
+  .pricing .pricing-info {
     max-width: 100%;
-    margin: 0 auto 30px auto;
   }
 }
 
 /*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
+/* faq */
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1330,6 +1426,7 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #000; /* Cambia el color del título a negro */
 }
 
 .faq .faq-list .icon-help {
@@ -1379,83 +1476,66 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 /* Contact Section */
-/* Contact Section */
+.contact {
+  padding: 30px 0;
+  background: #ffffff;
+}
+
+.contact .section-title h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.contact .section-title p {
+  font-size: 16px;
+  color: #555;
+}
+
 .contact .info {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
-  padding: 30px;
+  padding: 20px;
   background: #fff;
-  width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
 
+.contact .info div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .contact .info i {
-  font-size: 20px;
+  font-size: 24px;
   color: #47b2e4;
-  float: left;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   background: #e7f5fb;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin: 0 0 5px 15px;
   color: #000; /* Color negro para los encabezados */
 }
 
 .contact .info p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
   font-size: 14px;
   color: #000000;
+  margin: 0 0 5px 15px;
 }
 
-.contact .info .email p {
-  padding-top: 5px;
-}
-
-.contact .info .social-links {
-  padding-left: 60px;
-}
-
-.contact .info .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-
-.contact .info .social-links a:hover {
-  background: #47b2e4;
-  color: #fff;
-}
-
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #47b2e4;
-  color: #fff;
-}
-
-.contact .email-action-button {
+.contact .info .email-action-button {
   display: inline-block;
   padding: 10px 24px;
   background-color: #000; /* Color de fondo negro */
@@ -1463,13 +1543,40 @@ section {
   text-decoration: none;
   border-radius: 25px; /* Puntas redondeadas */
   transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
-.contact .email-action-button:hover {
+.contact .info .email-action-button:hover {
   background-color: #333; /* Color de fondo al pasar el cursor */
 }
 
+@media (max-width: 768px) {
+  .contact .col-lg-4, .contact .col-lg-8 {
+    width: 100%;
+  }
 
+  .contact .info i {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .contact .info h4 {
+    font-size: 16px;
+  }
+
+  .contact .info p {
+    font-size: 13px;
+  }
+
+  .contact .email-action-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+
+/*whatsapppppppppppp*/
 .whatsapp-float {
   position: fixed;
   bottom: 40px;
@@ -1778,3 +1885,132 @@ section {
   font-weight: bold;
   margin: 0; /* Elimina el margen del h1 */
 }
+
+
+/* About & Team Section */
+/* About & Team Section */
+/* About & Team Section */
+.about-team {
+  padding: 60px 0;
+}
+
+.about-team .section-title h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.about-team .section-title p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.about-team .row.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-team .content .col-lg-6 {
+  margin-bottom: 30px;
+}
+
+.about-team .content ul.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.about-team .content ul.experience-list li {
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.about-team .content ul.experience-list i {
+  margin-right: 8px;
+}
+
+.about-team .content .btn-learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.about-team .content .btn-learn-more:hover {
+  background-color: #0056b3;
+}
+
+.about-team .team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-team .team .member {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-team .team .member .pic {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about-team .team .member .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-team .team .member .member-info {
+  flex: 1;
+}
+
+.about-team .team .member h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.about-team .team .member span {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.about-team .team .member p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.about-team .team .member .social {
+  display: none; /* Oculta todos los iconos sociales */
+}
+
+.about-team .team .member .linkedin-icon {
+  margin-left: 10px; /* Espacio entre el título y el icono */
+  font-size: 20px; /* Tamaño del icono */
+  color: #0077b5; /* Color de LinkedIn */
+}
+
+.about-team .team .member .linkedin-icon i {
+  line-height: 40px; /* Alinea el icono verticalmente */
+}
+
+
+
+
